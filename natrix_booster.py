@@ -71,10 +71,10 @@ except ValueError:
   sys.exit()
   
 if c == 1:
-  invv = input("[-] natrix#4526 | Enter Invite Code: discord.gg/")
+  invv = input("[-] natrix#4526 | Enter Invite Code: discord.gg/QBp3Fhf5")
   asyncio.run(start_join(invv))
 elif c == 2:
-  g = int(input("[-] natrix#4526 | Enter Guild ID: "))
+  g = int(input("[-] natrix#4526 | Enter Guild ID: 1080031969414496316"))
   asyncio.run(start_boost(g))
 else:
   print("[-] natrix#4526 | Invaild Option")
